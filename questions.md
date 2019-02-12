@@ -14,7 +14,7 @@ Answer:
 
 ---
 Answer:
-
+Cloud based testing platform , just to save time on multi browser testing . (cross-browser testing  and Browser Stack,testcomplete , ghostinspector)
 ---
 
 ##### 3. How would you implement test automation in an application with streaming data?
@@ -28,11 +28,16 @@ Answer:
 
 ---
 Answer:
- 
+-component testing is performed on each individual component separately without integrating with other components
+ -an end-to-end test runs the entire system.
+-an integration test runs just two adjoining layers of the system: the integration point
 ---
 
 ##### 5. What do you think are the main issues with testing a responsive single page web application?
-
+1-Multiple Pages Loading Simultaneously
+2-Dynamic Information Not Updated Immediately
+3-No Loading Indicators and Button Disabling
+4-Loss of Unsaved Changes
 ---
 Answer:
  

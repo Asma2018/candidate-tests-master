@@ -15,6 +15,13 @@ import ask from './Api';
 
 
 describe('API Caller', () => {
+    it('should call YesNo API', () => {
+        const fetchSpy = jest.spyOn(global, 'fetch');
 
-
+        return ask()
+            .then(() => {
+                expect(fetchSpy).toHaveBeenCalledWith('https://yesno.wtf/api/');
+            });
+    });
 });
+
